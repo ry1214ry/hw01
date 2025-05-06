@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(24, 24, 99);
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+header {
+  background-color: rgb(46, 46, 146);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+nav .container a {
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+}
+.container .nav-brand {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+section {
+  margin-top: 25px;
+}
+.title {
+  color: white;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wraq;
+  margin: 0px -5px;
+}
+.col-6 {
+  width: 50%;
+  padding: 5px;
+}
+.col-3 {
+  width: 25%;
+  padding: 5px;
+}
+.col-4 {
+  width: 33.33333333333333%;
+  padding: 5px;
+}
+.card {
+  width: 100%;
+  margin-top: 40px;
+  box-shadow: 0 0 0px 2px gray;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.card-top {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(21, 54, 243);
+}
+.card-top1 {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(235, 235, 24);
+}
+.box {
+  background-color: red;
+}
+.card-body {
+  padding: 20px 10px;
+  color: white;
+}
+.card-title {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.card-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.neutral-dard1 {
+  background-color: black;
+}
+.neutral-dard2 {
+  background-color: rgba(0, 0, 0, 0.842);
+}
+.neutral-dard3 {
+  background-color: rgba(0, 0, 0, 0.61);
+}
+.neutral-dard4 {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+.neutral-dard5 {
+  background-color: black;
+}
+.neutral-dard6 {
+  background-color: white;
+}
+.neutral-dard7 {
+  background-color: rgba(141, 140, 140, 0.829);
+}
+.action-card1 {
+  background-color: rgb(23, 245, 223);
+}
+.action-card2 {
+  background-color: rgba(14, 172, 14, 0.863);
+}
+.action-card3 {
+  background-color: #ffff00;
+}
+.action-card4 {
+  background-color: brown;
+}
